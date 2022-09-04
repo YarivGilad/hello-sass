@@ -1,0 +1,24 @@
+@import "reset";
+@import "base";
+@import "mixins";
+@import "constants";
+@import "typography";
+
+/* 
+* Add your own CSS code below... 
+*/
+body{
+  background-color: $main-color;
+
+  @include flex-box(column, center, center);
+
+  .outer{
+    @include base-box(30rem, 30rem, $secondary-color);
+    @include flex-box( $dir: column, $jc: center, $ai: center);
+
+    .inner{
+      @include base-box(20rem, 20rem, $extra-color);
+      @include flex-box(  $jc: center, $ai: center);
+    }
+  }
+}
