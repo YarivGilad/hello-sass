@@ -16,7 +16,7 @@ After the build you may want to run the dist folder files locally with ```npx se
 
 This will also conveniently reveal the local IP of your machine so you can test it on a mobile device using the same wifi network...
 
-You can use the same local IP address to also connect to `parcel` 
+You can use the same local IP address to also connect to **parcel** 
 while developing by switching from port `3000` to port `1234`
 <br/><br/>
 ## Deployment
