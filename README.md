@@ -1,7 +1,6 @@
 # Hello Sass
 Use this git repository to have a starting point for Sass when working locally
-<br/>
-<br/>
+<br/><br/>
 
 ## Usage
 Clone this git repo to your local machine
@@ -19,5 +18,8 @@ This will also conveniently reveal the local IP of your machine so you can test 
 
 You can use the same local IP address to also connect to `parcel` 
 while developing by switching from port `3000` to port `1234`
+<br/><br/>
+## Deployment
 
-
+You can use [Netlify drop](https://app.netlify.com/drop) for hosting your static website
+or alternatively try [Github Pages](https://docs.github.com/en/pages/quickstart)
